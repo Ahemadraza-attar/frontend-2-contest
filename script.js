@@ -11,7 +11,7 @@ function PrintDeveloperbyMap() {
   {
       if(arr[index].profession=="developer")
       {
-       console.log(arr[index].name)
+       console.log(arr[index])
       }
   })
 }
@@ -21,7 +21,7 @@ function PrintDeveloperbyForEach() {
   {
       if(arr[index].profession=="developer")
       {
-       console.log(arr[index].name)
+       console.log(arr[index])
       }
   })
 }
